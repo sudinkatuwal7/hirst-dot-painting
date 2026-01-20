@@ -14,30 +14,38 @@ This project creates colorful dot patterns using the `turtle` module and a custo
 - ✨ Every run creates a **distinct generative artwork**
 
 ---
+## 📂 File Structure
+```bash
+hirst-dot-painting/
+│
+├─ main.py        # Main Python script to generate Hirst-style dot painting
+├─ project.jpg    # Optional image used for color extraction (if using colorgram)
+└─ README.md      # Project documentation
+```
 
 ## 🚀 Installation & How to Run 
 
-- Clone the repository
+### Clone the repository
 
 Open your terminal or command prompt and run:
 ```
 git clone https://github.com/sudinkatuwal7/hirst-dot-painting.git
 ```
 
-Then move into the project folder:
+### Then move into the project folder:
 ```
 cd hirst-dot-painting
 ```
-- ```Optional``` Install colorgram.py
+```Optional``` Install colorgram.py
 
-If you want to extract colors from an image in the future (like project.jpg), install:
+### If you want to extract colors from an image in the future (like project.jpg), install:
 ```
 pip install colorgram.py
 ```
 
-Installing this package is optional since your project already has a hard‑coded color list. It’s only needed if you update the code to extract a palette automatically.
+### Installing this package is optional since your project already has a hard‑coded color list. It’s only needed if you update the code to extract a palette automatically.
 
-- Run the program
+Run the program
 
 ```
 python main.py
